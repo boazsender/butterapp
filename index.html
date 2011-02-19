@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ 
+    <!--
+      BBBBBBBBBBBBBBBBB                            tttt               tttt                                                  
+      B::::::::::::::::B                        ttt:::t            ttt:::t                                                  
+      B::::::BBBBBB:::::B                       t:::::t            t:::::t                                                  
+      BB:::::B     B:::::B                      t:::::t            t:::::t                                                  
+        B::::B     B:::::Buuuuuu    uuuuuuttttttt:::::tttttttttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr   
+        B::::B     B:::::Bu::::u    u::::ut:::::::::::::::::tt:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r  
+        B::::BBBBBB:::::B u::::u    u::::ut:::::::::::::::::tt:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r 
+        B:::::::::::::BB  u::::u    u::::utttttt:::::::tttttttttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
+        B::::BBBBBB:::::B u::::u    u::::u      t:::::t            t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
+        B::::B     B:::::Bu::::u    u::::u      t:::::t            t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
+        B::::B     B:::::Bu::::u    u::::u      t:::::t            t:::::t          e::::::eeeeeeeeeee   r:::::r            
+        B::::B     B:::::Bu:::::uuuu:::::u      t:::::t    tttttt  t:::::t    tttttte:::::::e            r:::::r            
+      BB:::::BBBBBB::::::Bu:::::::::::::::uu    t::::::tttt:::::t  t::::::tttt:::::te::::::::e           r:::::r            
+      B:::::::::::::::::B  u:::::::::::::::u    tt::::::::::::::t  tt::::::::::::::t e::::::::eeeeeeee   r:::::r            
+      B::::::::::::::::B    uu::::::::uu:::u      tt:::::::::::tt    tt:::::::::::tt  ee:::::::::::::e   r:::::r            
+      BBBBBBBBBBBBBBBBB       uuuuuuuu  uuuu        ttttttttttt        ttttttttttt      eeeeeeeeeeeeee   rrrrrrr            
+    --> 
+ 
+    <title>Butter</title> 
+
+    <style>
+      @font-face {
+        font-family: 'raleway';
+        src: url('fonts/raleway/raleway_thin.eot');
+        src: local('☺'), url('fonts/raleway/raleway_thin.otf') format('otf'), url('fonts/raleway/raleway_thin.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'junction';
+        src: url('fonts/junction/junction.eot');
+        src: local('☺'), url('fonts/junction/junction.otf') format('otf'), url('fonts/junction/junction.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      body {
+        font-family: junction;
+        background-color: #1D1E21;
+        background-image : -moz-radial-gradient(#333, #1D1E21);
+        background-image : -webkit-gradient(radial, center center, 20, center center, 700, from(#333), to(#1D1E21), color-stop(10%, #333));
+      }
+      section {
+        width: 700px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 95px;
+        margin-bottom: 0px; 
+        height: 280px;
+        margin-top: 130px;
+        width: 100%;
+        line-height: 1;
+        background: url('img/butterapp.png') no-repeat center;
+        text-indent: -9999em;
+      }
+      h2 {
+        text-align: center;
+        color: #666;
+        font-family: junction;
+        font-size: 18px;
+        font-weight: normal;
+        
+      }
+      ul {
+        margin: 70px 0 0 0;
+        padding: 0px;
+        text-align: center;
+        list-style-type: none;
+      }
+      li {
+        font-size: 20px;
+        margin: 0 0 25px 0;
+      }
+      a {
+        color: #fff;
+        text-shadow: 0px 0px 1px #000;
+        text-decoration: none;
+        -webkit-transition: all .3s;
+      }
+      a:hover {
+        margin-left: -25px;
+      }
+      a.push:hover {
+        margin-left: 0px;
+        margin-right: -45px;
+      }
+      .push {
+        margin-right: -25px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <section>
+      <h1>
+        Butter App
+      </h1>
+      <h2>The Popcorn.js Authoring Tool</h2>
+      
+      <ul>
+        <li><a href="https://github.com/webmademovies/butter/blob/master/readme.markdown">About</a></li>
+        <li><a href="irc://mozilla.org/">Community</a></li>
+        <li><a href="irc://mozilla.org/">Source code</a></li>
+        <li><a class="push" href="/butter">Try Butter &rarr;</a></li>
+      </ul>
+    </section>
+    <a href="https://github.com/webmademovies/butter"><img style="position: absolute; top: 0; left: 0; border: 0;" src="img/github-left.png" alt="Fork me on GitHub"></a>
+    <a href="http://webmademovies.org"><img style="position: absolute; top: 20px; right: 0; border: 0;" src="img/wwm-ticket.png" alt="A Web Made Movies Project"></a>
+  </body>
+</html>
