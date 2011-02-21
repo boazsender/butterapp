@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'raleway';
+  src: url('fonts/raleway/raleway_thin.eot');
+  src: local('☺'), url('fonts/raleway/raleway_thin.otf') format('otf'), url('fonts/raleway/raleway_thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'junction';
+  src: url('fonts/junction/junction.eot');
+  src: local('☺'), url('fonts/junction/junction.otf') format('otf'), url('fonts/junction/junction.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: junction;
+  background-color: #1D1E21;
+  background-image : -moz-radial-gradient(#333, #1D1E21);
+  background-image : -webkit-gradient(radial, center center, 20, center center, 700, from(#333), to(#1D1E21), color-stop(10%, #333));
+}
+section {
+  width: 700px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 95px;
+  margin-bottom: 0px; 
+  height: 280px;
+  margin-top: 130px;
+  width: 100%;
+  line-height: 1;
+  background: url('img/butterapp.png') no-repeat center;
+  text-indent: -9999em;
+}
+h2 {
+  text-align: center;
+  color: #666;
+  font-family: junction;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+ul {
+  margin: 70px 0 0 0;
+  padding: 0px;
+  text-align: center;
+  list-style-type: none;
+}
+li {
+  font-size: 20px;
+  margin: 0 0 25px 0;
+}
+a {
+  color: #fff;
+  text-shadow: 0px 0px 1px #000;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+}
+a:hover {
+  margin-left: -25px;
+}
+a.push:hover {
+  margin-left: 0px;
+  margin-right: -45px;
+}
+.push {
+  margin-right: -25px;
+}
